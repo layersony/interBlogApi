@@ -2,6 +2,7 @@ import os
 from decouple import config
 import dj_database_url
 from pathlib import Path
+import django_heroku
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -52,7 +53,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'blogapi.wsgi.application'
 
 if config('MODE')=='dev':
-    DATABASE ={
+    DATABASES ={
         'default':{
             'ENGINE':'django.db.backends.postgresql_psycopg2',
             'NAME': config('DB_NAME'),
