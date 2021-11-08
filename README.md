@@ -13,19 +13,19 @@ https://documenter.getpostman.com/view/14331044/UVC3jTC2
 * Once you Register using the Register Endpoint.
 * There Are 2 ways to use pass in the Login creditionals
 ```
-Create a New Collection in Postman.
-Click 3 dots on the side panel of the new Colletion you have created and Click Edit.
-Navigate to Authorization and Choose Type Basic Auth.
+- Create a New Collection in Postman.
+- Click 3 dots on the side panel of the new Colletion you have created and Click Edit.
+- Navigate to Authorization and Choose Type Basic Auth.
 
-Key in your Username and Password on the respective inputs and then Save.
-Create new requests inside the collection for By default they will be inheriting the creditionals from parent.
+- Key in your Username and Password on the respective inputs and then Save.
+- Create new requests inside the collection for By default they will be inheriting the creditionals from parent.
 ```
 
 Second way
 ```
-Create a New request on Postman.
-Navigate to Authorization and Choose Type Basic Auth.
-Key in your Username and Password on the respective inputs and then Save.
+- Create a New request on Postman.
+- Navigate to Authorization and Choose Type Basic Auth.
+- Key in your Username and Password on the respective inputs and then Save.
 ```
 
 Landing Page
